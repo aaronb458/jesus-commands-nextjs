@@ -7,17 +7,17 @@ export function ProblemSection() {
         </h2>
 
         <div className="space-y-6 text-lg leading-relaxed">
-          <p className="text-muted">
+          <p className="text-foreground">
             <span className="font-semibold text-foreground">Hi friend,</span> if you're here,
-            something in you is asking: <em className="text-primary dark:text-primary-light">"Is there more to prayer than begging God?"</em>
+            something in you is asking: <em className="text-primary dark:text-primary-light font-semibold">"Is there more to prayer than begging God?"</em>
           </p>
 
-          <p>
+          <p className="text-foreground">
             You've probably prayed for someone who's sick. Maybe you've seen pastors lay hands on people.
             You've definitely seen Jesus and the disciples heal in the Bible.
           </p>
 
-          <p className="font-medium text-foreground">
+          <p className="font-bold text-foreground text-xl">
             But have you ever noticed they didn't beg?
           </p>
 
@@ -25,14 +25,14 @@ export function ProblemSection() {
             <p className="text-xl font-semibold text-primary dark:text-primary-light mb-4">
               They commanded.
             </p>
-            <p className="text-muted">
+            <p className="text-foreground">
               No long prayers. No "if it be Your will." No begging for God to maybe, possibly,
               if He feels like it, do something.
             </p>
           </div>
 
-          <p>
-            They spoke <strong>to the problem</strong> with authority. And things changed.
+          <p className="text-foreground">
+            They spoke <strong className="text-primary dark:text-primary-light">to the problem</strong> with authority. And things changed.
           </p>
         </div>
       </div>
