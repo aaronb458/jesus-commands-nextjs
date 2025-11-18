@@ -32,10 +32,10 @@ export function CTASection() {
     <section className="py-20 px-4 bg-gradient-to-br from-primary/5 via-accent/5 to-sage/5 dark:from-primary/10 dark:via-accent/10 dark:to-sage/10">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-5xl font-display font-bold mb-4">
+          <h2 className="text-3xl md:text-5xl font-display font-bold mb-4 text-foreground">
             What's Your Next Step?
           </h2>
-          <p className="text-xl text-muted max-w-2xl mx-auto">
+          <p className="text-xl text-foreground max-w-2xl mx-auto">
             Choose your path. Each one will help you move from begging to commanding.
           </p>
         </div>
@@ -50,7 +50,7 @@ export function CTASection() {
                 className="group bg-background dark:bg-surface p-8 rounded-lg border-2 border-border hover:border-primary dark:hover:border-primary-light transition-all hover:shadow-xl"
               >
                 <Icon className="w-12 h-12 text-primary dark:text-primary-light mb-4 group-hover:scale-110 transition-transform" />
-                <h3 className="font-display font-bold text-xl mb-2 group-hover:text-primary dark:group-hover:text-primary-light transition-colors">
+                <h3 className="font-display font-bold text-xl mb-2 text-foreground group-hover:text-primary dark:group-hover:text-primary-light transition-colors">
                   {action.title}
                 </h3>
                 <p className="text-muted mb-4">{action.description}</p>

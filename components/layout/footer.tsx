@@ -20,25 +20,25 @@ export function Footer() {
 
           {/* Quick Links */}
           <div>
-            <h3 className="font-display font-bold text-lg mb-4">Quick Links</h3>
+            <h3 className="font-display font-bold text-lg mb-4 text-foreground">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/start-here" className="text-muted hover:text-primary transition-colors text-sm">
+                <Link href="/start-here" className="text-muted hover:text-primary dark:hover:text-primary-light transition-colors text-sm">
                   Start Here
                 </Link>
               </li>
               <li>
-                <Link href="/quiz" className="text-muted hover:text-primary transition-colors text-sm">
+                <Link href="/quiz" className="text-muted hover:text-primary dark:hover:text-primary-light transition-colors text-sm">
                   Take the Quiz
                 </Link>
               </li>
               <li>
-                <Link href="/challenge" className="text-muted hover:text-primary transition-colors text-sm">
+                <Link href="/challenge" className="text-muted hover:text-primary dark:hover:text-primary-light transition-colors text-sm">
                   7-Day Challenge
                 </Link>
               </li>
               <li>
-                <Link href="/learning-path" className="text-muted hover:text-primary transition-colors text-sm">
+                <Link href="/learning-path" className="text-muted hover:text-primary dark:hover:text-primary-light transition-colors text-sm">
                   Learning Path
                 </Link>
               </li>
@@ -47,20 +47,20 @@ export function Footer() {
 
           {/* Resources */}
           <div>
-            <h3 className="font-display font-bold text-lg mb-4">Resources</h3>
+            <h3 className="font-display font-bold text-lg mb-4 text-foreground">Resources</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/scripture-lookup" className="text-muted hover:text-primary transition-colors text-sm">
+                <Link href="/scripture-lookup" className="text-muted hover:text-primary dark:hover:text-primary-light transition-colors text-sm">
                   Scripture Database
                 </Link>
               </li>
               <li>
-                <Link href="/testimonies" className="text-muted hover:text-primary transition-colors text-sm">
+                <Link href="/testimonies" className="text-muted hover:text-primary dark:hover:text-primary-light transition-colors text-sm">
                   Testimonies
                 </Link>
               </li>
               <li>
-                <Link href="/pdf" className="text-muted hover:text-primary transition-colors text-sm">
+                <Link href="/pdf" className="text-muted hover:text-primary dark:hover:text-primary-light transition-colors text-sm">
                   Free PDF Guide
                 </Link>
               </li>
