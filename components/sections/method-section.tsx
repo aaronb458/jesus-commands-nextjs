@@ -1,3 +1,5 @@
+import { ScriptureRef } from "@/components/ui/scripture-ref"
+
 export function MethodSection() {
   const steps = [
     {
@@ -71,9 +73,15 @@ export function MethodSection() {
           <p className="text-xl font-semibold mb-2">
             This is reproducible.
           </p>
-          <p className="text-muted">
+          <p className="text-foreground mb-4">
             It's not a magic formula, but there IS a pattern. And you can learn it.
           </p>
+          <div className="text-sm italic text-muted max-w-2xl mx-auto">
+            <p className="mb-2">
+              "As the Father has sent me, I am sending you."
+            </p>
+            <ScriptureRef reference="John 20:21" />
+          </div>
         </div>
       </div>
     </section>

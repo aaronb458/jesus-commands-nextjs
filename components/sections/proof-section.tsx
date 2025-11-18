@@ -1,4 +1,5 @@
 import { TrendingUp, Users, MapPin } from "lucide-react"
+import { ScriptureRef } from "@/components/ui/scripture-ref"
 
 export function ProofSection() {
   const stats = [
@@ -28,9 +29,15 @@ export function ProofSection() {
         <h2 className="text-3xl md:text-5xl font-display font-bold text-center mb-6 text-foreground">
           It Works Today
         </h2>
-        <p className="text-center text-xl text-muted mb-12 max-w-3xl mx-auto">
+        <p className="text-center text-xl text-foreground mb-4 max-w-3xl mx-auto">
           From Colombia to California, believers are seeing the same results the early church saw.
         </p>
+        <div className="text-center mb-12">
+          <p className="text-sm italic text-muted mb-2 max-w-2xl mx-auto">
+            "And these signs will accompany those who believe: In my name they will drive out demons... they will place their hands on sick people, and they will get well."
+          </p>
+          <ScriptureRef reference="Mark 16:17-18" />
+        </div>
 
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           {stats.map((stat, index) => {

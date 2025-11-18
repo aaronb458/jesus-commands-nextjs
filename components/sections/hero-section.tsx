@@ -2,6 +2,7 @@
 
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
+import { ScriptureRef } from "@/components/ui/scripture-ref"
 
 export function HeroSection() {
   return (
@@ -18,9 +19,19 @@ export function HeroSection() {
           Not Suggestions
         </h1>
 
-        <p className="text-xl md:text-2xl text-muted max-w-2xl mx-auto leading-relaxed">
+        <p className="text-xl md:text-2xl text-foreground max-w-2xl mx-auto leading-relaxed">
           Stop begging. Start commanding. Learn to pray with the same authority Jesus demonstrated in the Gospels.
         </p>
+
+        {/* Foundation verse */}
+        <div className="bg-surface dark:bg-surface p-6 rounded-lg border-l-4 border-primary dark:border-primary-light max-w-3xl mx-auto">
+          <p className="text-lg md:text-xl italic text-foreground mb-2">
+            "Very truly I tell you, whoever believes in me will do the works I have been doing, and they will do even greater things than these..."
+          </p>
+          <div className="flex justify-center">
+            <ScriptureRef reference="John 14:12" />
+          </div>
+        </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
           <Link

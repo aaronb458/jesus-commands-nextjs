@@ -2,6 +2,7 @@
 
 import Link from "next/link"
 import { ArrowRight, BookOpen, Trophy, Search } from "lucide-react"
+import { ScriptureRef } from "@/components/ui/scripture-ref"
 
 export function CTASection() {
   const actions = [
@@ -35,9 +36,15 @@ export function CTASection() {
           <h2 className="text-3xl md:text-5xl font-display font-bold mb-4 text-foreground">
             What's Your Next Step?
           </h2>
-          <p className="text-xl text-foreground max-w-2xl mx-auto">
+          <p className="text-xl text-foreground max-w-2xl mx-auto mb-4">
             Choose your path. Each one will help you move from begging to commanding.
           </p>
+          <div className="max-w-2xl mx-auto">
+            <p className="text-sm italic text-muted mb-2">
+              "I have given you authority to trample on snakes and scorpions and to overcome all the power of the enemy; nothing will harm you."
+            </p>
+            <ScriptureRef reference="Luke 10:19" />
+          </div>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8 mb-12">
