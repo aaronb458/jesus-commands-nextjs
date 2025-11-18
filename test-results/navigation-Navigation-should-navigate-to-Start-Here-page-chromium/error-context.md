@@ -1,0 +1,143 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e7] [cursor=pointer]:
+    - generic [ref=e10]:
+      - text: Compiling
+      - generic [ref=e11]:
+        - generic [ref=e12]: .
+        - generic [ref=e13]: .
+        - generic [ref=e14]: .
+  - alert [ref=e15]
+  - generic [ref=e16]:
+    - navigation [ref=e17]:
+      - generic [ref=e19]:
+        - link "Jesus Commands" [ref=e20] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e21]: Jesus Commands
+        - generic [ref=e22]:
+          - link "Home" [ref=e23] [cursor=pointer]:
+            - /url: /
+          - link "Start Here" [ref=e24] [cursor=pointer]:
+            - /url: /start-here
+          - link "Take Quiz" [ref=e25] [cursor=pointer]:
+            - /url: /quiz
+          - link "7-Day Challenge" [ref=e26] [cursor=pointer]:
+            - /url: /challenge
+          - link "Learning Path" [ref=e27] [cursor=pointer]:
+            - /url: /learning-path
+          - link "Scripture Lookup" [ref=e28] [cursor=pointer]:
+            - /url: /scripture-lookup
+          - link "Testimonies" [ref=e29] [cursor=pointer]:
+            - /url: /testimonies
+          - button [ref=e30]
+    - main [ref=e32]:
+      - generic [ref=e33]:
+        - heading "Start Here" [level=1] [ref=e34]
+        - paragraph [ref=e35]: "New to commanding prayer? This is your foundation. Three pillars: Scripture, Logic, Evidence."
+        - generic [ref=e36]:
+          - generic [ref=e37]:
+            - generic [ref=e38]:
+              - img [ref=e40]
+              - generic [ref=e42]:
+                - heading "The Bible Says It" [level=2] [ref=e43]
+                - paragraph [ref=e44]: Pure scripture with no commentary. See what Jesus and the apostles actually did.
+            - list [ref=e45]:
+              - listitem [ref=e46]:
+                - generic [ref=e47]: •
+                - generic [ref=e48]: Mark 1:25 - Jesus commands a demon
+              - listitem [ref=e49]:
+                - generic [ref=e50]: •
+                - generic [ref=e51]: Acts 3:6 - Peter commands healing
+              - listitem [ref=e52]:
+                - generic [ref=e53]: •
+                - generic [ref=e54]: Mark 5:41 - Jesus commands life
+              - listitem [ref=e55]:
+                - generic [ref=e56]: •
+                - generic [ref=e57]: Acts 9:34 - Peter speaks healing
+          - generic [ref=e58]:
+            - generic [ref=e59]:
+              - img [ref=e61]
+              - generic [ref=e69]:
+                - heading "The Logic" [level=2] [ref=e70]
+                - paragraph [ref=e71]: Why commanding isn't presumptuous - it's obedient.
+            - list [ref=e72]:
+              - listitem [ref=e73]:
+                - generic [ref=e74]: •
+                - generic [ref=e75]: Jesus said "greater works than these you will do" (John 14:12)
+              - listitem [ref=e76]:
+                - generic [ref=e77]: •
+                - generic [ref=e78]: He gave us authority over sickness and demons (Luke 10:19)
+              - listitem [ref=e79]:
+                - generic [ref=e80]: •
+                - generic [ref=e81]: The early church didn't beg - they commanded
+              - listitem [ref=e82]:
+                - generic [ref=e83]: •
+                - generic [ref=e84]: We have the same Holy Spirit they had
+          - generic [ref=e85]:
+            - generic [ref=e86]:
+              - img [ref=e88]
+              - generic [ref=e91]:
+                - heading "The Evidence" [level=2] [ref=e92]
+                - paragraph [ref=e93]: It's happening today, all over the world.
+            - list [ref=e94]:
+              - listitem [ref=e95]:
+                - generic [ref=e96]: •
+                - generic [ref=e97]: 200+ documented healings in Colombia in 3 months
+              - listitem [ref=e98]:
+                - generic [ref=e99]: •
+                - generic [ref=e100]: 73% of challenge participants see results in 7 days
+              - listitem [ref=e101]:
+                - generic [ref=e102]: •
+                - generic [ref=e103]: 10,000+ believers trained in 35+ countries
+              - listitem [ref=e104]:
+                - generic [ref=e105]: •
+                - generic [ref=e106]: Growing movement back to Biblical prayer
+        - generic [ref=e107]:
+          - heading "Ready to Take Action?" [level=2] [ref=e108]
+          - paragraph [ref=e109]: You've seen the scripture, understood the logic, and heard the evidence. Now it's time to practice.
+          - generic [ref=e110]:
+            - link "Take the Quiz" [ref=e111] [cursor=pointer]:
+              - /url: /quiz
+              - text: Take the Quiz
+              - img [ref=e112]
+            - link "Start the 7-Day Challenge" [ref=e114] [cursor=pointer]:
+              - /url: /challenge
+              - text: Start the 7-Day Challenge
+              - img [ref=e115]
+    - contentinfo [ref=e117]:
+      - generic [ref=e118]:
+        - generic [ref=e119]:
+          - generic [ref=e120]:
+            - heading "Jesus Commands" [level=3] [ref=e121]
+            - paragraph [ref=e122]: Teaching believers to pray with Biblical authority. Not begging - commanding. Just like Jesus showed us in the Gospels and Acts.
+          - generic [ref=e123]:
+            - heading "Quick Links" [level=3] [ref=e124]
+            - list [ref=e125]:
+              - listitem [ref=e126]:
+                - link "Start Here" [ref=e127] [cursor=pointer]:
+                  - /url: /start-here
+              - listitem [ref=e128]:
+                - link "Take the Quiz" [ref=e129] [cursor=pointer]:
+                  - /url: /quiz
+              - listitem [ref=e130]:
+                - link "7-Day Challenge" [ref=e131] [cursor=pointer]:
+                  - /url: /challenge
+              - listitem [ref=e132]:
+                - link "Learning Path" [ref=e133] [cursor=pointer]:
+                  - /url: /learning-path
+          - generic [ref=e134]:
+            - heading "Resources" [level=3] [ref=e135]
+            - list [ref=e136]:
+              - listitem [ref=e137]:
+                - link "Scripture Database" [ref=e138] [cursor=pointer]:
+                  - /url: /scripture-lookup
+              - listitem [ref=e139]:
+                - link "Testimonies" [ref=e140] [cursor=pointer]:
+                  - /url: /testimonies
+              - listitem [ref=e141]:
+                - link "Free PDF Guide" [ref=e142] [cursor=pointer]:
+                  - /url: /pdf
+        - paragraph [ref=e144]: © 2025 Jesus Commands. All rights reserved. Teaching believers to walk in Biblical authority.
+```

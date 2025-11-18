@@ -75,7 +75,8 @@ export function Navigation() {
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="p-2 rounded-md text-foreground hover:bg-surface transition-colors"
-              aria-label="Toggle menu"
+              aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
+              aria-expanded={isMobileMenuOpen}
             >
               {isMobileMenuOpen ? (
                 <X className="h-6 w-6" />
@@ -90,12 +91,13 @@ export function Navigation() {
       {/* Mobile Navigation */}
       {isMobileMenuOpen && (
         <div className="md:hidden bg-background border-t border-border">
-          <div className="px-2 pt-2 pb-3 space-y-1">
+          <div className="px-2 pt-2 pb-3 space-y-1" role="menu">
             {navItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
                 onClick={() => setIsMobileMenuOpen(false)}
+                role="menuitem"
                 className={cn(
                   "block px-3 py-2 rounded-md text-base font-medium transition-colors",
                   pathname === item.href

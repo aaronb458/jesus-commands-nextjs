@@ -1,0 +1,60 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e7] [cursor=pointer]:
+    - img [ref=e8]
+  - alert [ref=e11]
+  - generic [ref=e12]:
+    - navigation [ref=e13]:
+      - generic [ref=e15]:
+        - link "Jesus Commands" [ref=e16] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e17]: Jesus Commands
+        - generic [ref=e18]:
+          - button "Toggle theme" [ref=e19]:
+            - img [ref=e20]
+          - button "Toggle menu" [ref=e26]:
+            - img [ref=e27]
+    - main [ref=e28]:
+      - generic [ref=e29]:
+        - heading "Real Stories, Real Results" [level=1] [ref=e30]
+        - paragraph [ref=e31]: See what happens when believers command instead of beg
+        - generic [ref=e32]:
+          - paragraph [ref=e33]: Testimonies Coming Soon
+          - paragraph [ref=e34]: Submit your testimony, read others' stories, and filter by condition. A growing database of real healings from commanding prayer.
+    - contentinfo [ref=e35]:
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - generic [ref=e38]:
+            - heading "Jesus Commands" [level=3] [ref=e39]
+            - paragraph [ref=e40]: Teaching believers to pray with Biblical authority. Not begging - commanding. Just like Jesus showed us in the Gospels and Acts.
+          - generic [ref=e41]:
+            - heading "Quick Links" [level=3] [ref=e42]
+            - list [ref=e43]:
+              - listitem [ref=e44]:
+                - link "Start Here" [ref=e45] [cursor=pointer]:
+                  - /url: /start-here
+              - listitem [ref=e46]:
+                - link "Take the Quiz" [ref=e47] [cursor=pointer]:
+                  - /url: /quiz
+              - listitem [ref=e48]:
+                - link "7-Day Challenge" [ref=e49] [cursor=pointer]:
+                  - /url: /challenge
+              - listitem [ref=e50]:
+                - link "Learning Path" [ref=e51] [cursor=pointer]:
+                  - /url: /learning-path
+          - generic [ref=e52]:
+            - heading "Resources" [level=3] [ref=e53]
+            - list [ref=e54]:
+              - listitem [ref=e55]:
+                - link "Scripture Database" [ref=e56] [cursor=pointer]:
+                  - /url: /scripture-lookup
+              - listitem [ref=e57]:
+                - link "Testimonies" [ref=e58] [cursor=pointer]:
+                  - /url: /testimonies
+              - listitem [ref=e59]:
+                - link "Free PDF Guide" [ref=e60] [cursor=pointer]:
+                  - /url: /pdf
+        - paragraph [ref=e62]: © 2025 Jesus Commands. All rights reserved. Teaching believers to walk in Biblical authority.
+```

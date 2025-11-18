@@ -1,0 +1,72 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e7] [cursor=pointer]:
+    - img [ref=e8]
+  - alert [ref=e11]: Real Stories, Real Results
+  - generic [ref=e12]:
+    - navigation [ref=e13]:
+      - generic [ref=e15]:
+        - link "Jesus Commands" [ref=e16] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e17]: Jesus Commands
+        - generic [ref=e18]:
+          - link "Home" [ref=e19] [cursor=pointer]:
+            - /url: /
+          - link "Start Here" [ref=e20] [cursor=pointer]:
+            - /url: /start-here
+          - link "Take Quiz" [ref=e21] [cursor=pointer]:
+            - /url: /quiz
+          - link "7-Day Challenge" [ref=e22] [cursor=pointer]:
+            - /url: /challenge
+          - link "Learning Path" [ref=e23] [cursor=pointer]:
+            - /url: /learning-path
+          - link "Scripture Lookup" [ref=e24] [cursor=pointer]:
+            - /url: /scripture-lookup
+          - link "Testimonies" [ref=e25] [cursor=pointer]:
+            - /url: /testimonies
+          - button "Toggle theme" [ref=e26]:
+            - img [ref=e27]
+    - main [ref=e33]:
+      - generic [ref=e34]:
+        - heading "Real Stories, Real Results" [level=1] [ref=e35]
+        - paragraph [ref=e36]: See what happens when believers command instead of beg
+        - generic [ref=e37]:
+          - paragraph [ref=e38]: Testimonies Coming Soon
+          - paragraph [ref=e39]: Submit your testimony, read others' stories, and filter by condition. A growing database of real healings from commanding prayer.
+    - contentinfo [ref=e40]:
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - heading "Jesus Commands" [level=3] [ref=e44]
+            - paragraph [ref=e45]: Teaching believers to pray with Biblical authority. Not begging - commanding. Just like Jesus showed us in the Gospels and Acts.
+          - generic [ref=e46]:
+            - heading "Quick Links" [level=3] [ref=e47]
+            - list [ref=e48]:
+              - listitem [ref=e49]:
+                - link "Start Here" [ref=e50] [cursor=pointer]:
+                  - /url: /start-here
+              - listitem [ref=e51]:
+                - link "Take the Quiz" [ref=e52] [cursor=pointer]:
+                  - /url: /quiz
+              - listitem [ref=e53]:
+                - link "7-Day Challenge" [ref=e54] [cursor=pointer]:
+                  - /url: /challenge
+              - listitem [ref=e55]:
+                - link "Learning Path" [ref=e56] [cursor=pointer]:
+                  - /url: /learning-path
+          - generic [ref=e57]:
+            - heading "Resources" [level=3] [ref=e58]
+            - list [ref=e59]:
+              - listitem [ref=e60]:
+                - link "Scripture Database" [ref=e61] [cursor=pointer]:
+                  - /url: /scripture-lookup
+              - listitem [ref=e62]:
+                - link "Testimonies" [ref=e63] [cursor=pointer]:
+                  - /url: /testimonies
+              - listitem [ref=e64]:
+                - link "Free PDF Guide" [ref=e65] [cursor=pointer]:
+                  - /url: /pdf
+        - paragraph [ref=e67]: © 2025 Jesus Commands. All rights reserved. Teaching believers to walk in Biblical authority.
+```

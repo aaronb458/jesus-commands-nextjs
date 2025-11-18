@@ -1,0 +1,221 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e5]:
+        - link "Jesus Commands" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e7]: Jesus Commands
+        - generic [ref=e8]:
+          - button "Toggle theme" [ref=e9]:
+            - img [ref=e10]
+          - button "Toggle menu" [active] [ref=e20]:
+            - img [ref=e21]
+      - generic [ref=e25]:
+        - link "Home" [ref=e26] [cursor=pointer]:
+          - /url: /
+        - link "Start Here" [ref=e27] [cursor=pointer]:
+          - /url: /start-here
+        - link "Take Quiz" [ref=e28] [cursor=pointer]:
+          - /url: /quiz
+        - link "7-Day Challenge" [ref=e29] [cursor=pointer]:
+          - /url: /challenge
+        - link "Learning Path" [ref=e30] [cursor=pointer]:
+          - /url: /learning-path
+        - link "Scripture Lookup" [ref=e31] [cursor=pointer]:
+          - /url: /scripture-lookup
+        - link "Testimonies" [ref=e32] [cursor=pointer]:
+          - /url: /testimonies
+    - main [ref=e33]:
+      - generic [ref=e36]:
+        - heading "Jesus Gave You Commands Not Suggestions" [level=1] [ref=e37]:
+          - text: Jesus Gave You Commands
+          - text: Not Suggestions
+        - paragraph [ref=e38]: Stop begging. Start commanding. Learn to pray with the same authority Jesus demonstrated in the Gospels.
+        - generic [ref=e39]:
+          - link "Start Here" [ref=e40] [cursor=pointer]:
+            - /url: /start-here
+            - text: Start Here
+            - img [ref=e41]
+          - link "Take the Quiz" [ref=e44] [cursor=pointer]:
+            - /url: /quiz
+      - generic [ref=e49]:
+        - heading "Have You Been Praying Wrong?" [level=2] [ref=e50]
+        - generic [ref=e51]:
+          - paragraph [ref=e52]:
+            - text: "Hi friend, if you're here, something in you is asking:"
+            - emphasis [ref=e53]: "\"Is there more to prayer than begging God?\""
+          - paragraph [ref=e54]: You've probably prayed for someone who's sick. Maybe you've seen pastors lay hands on people. You've definitely seen Jesus and the disciples heal in the Bible.
+          - paragraph [ref=e55]: But have you ever noticed they didn't beg?
+          - generic [ref=e56]:
+            - paragraph [ref=e57]: They commanded.
+            - paragraph [ref=e58]: No long prayers. No "if it be Your will." No begging for God to maybe, possibly, if He feels like it, do something.
+          - paragraph [ref=e59]:
+            - text: They spoke
+            - strong [ref=e60]: to the problem
+            - text: with authority. And things changed.
+      - generic [ref=e62]:
+        - heading "What the Bible Actually Shows" [level=2] [ref=e63]
+        - generic [ref=e64]:
+          - generic [ref=e65]:
+            - generic [ref=e66]:
+              - img [ref=e67]
+              - generic [ref=e70]:
+                - heading "Peter" [level=3] [ref=e71]
+                - paragraph [ref=e72]: Acts 3:6
+            - paragraph [ref=e73]: "\"In the name of Jesus Christ of Nazareth, rise up and walk!\""
+            - paragraph [ref=e74]: "Result: Instantly healed"
+          - generic [ref=e75]:
+            - generic [ref=e76]:
+              - img [ref=e77]
+              - generic [ref=e80]:
+                - heading "Jesus" [level=3] [ref=e81]
+                - paragraph [ref=e82]: Mark 1:25
+            - paragraph [ref=e83]: "\"Be quiet, and come out of him!\""
+            - paragraph [ref=e84]: "Result: Demon left immediately"
+          - generic [ref=e85]:
+            - generic [ref=e86]:
+              - img [ref=e87]
+              - generic [ref=e90]:
+                - heading "Peter" [level=3] [ref=e91]
+                - paragraph [ref=e92]: Acts 9:34
+            - paragraph [ref=e93]: "\"Jesus Christ heals you. Get up and roll up your mat.\""
+            - paragraph [ref=e94]: "Result: Paralyzed man healed instantly"
+          - generic [ref=e95]:
+            - generic [ref=e96]:
+              - img [ref=e97]
+              - generic [ref=e100]:
+                - heading "Jesus" [level=3] [ref=e101]
+                - paragraph [ref=e102]: Mark 5:41
+            - paragraph [ref=e103]: "\"Little girl, I say to you, get up!\""
+            - paragraph [ref=e104]: "Result: Dead girl came back to life"
+        - generic [ref=e105]:
+          - paragraph [ref=e106]: Notice the pattern?
+          - paragraph [ref=e107]: They didn't pray TO God ABOUT the problem. They spoke TO the problem WITH God's authority.
+      - generic [ref=e109]:
+        - heading "The 5-Step Method" [level=2] [ref=e110]
+        - paragraph [ref=e111]: From Acts 3:1-8 - Peter healing the lame beggar
+        - generic [ref=e112]:
+          - generic [ref=e113]:
+            - generic [ref=e114]: "1"
+            - heading "See the Problem" [level=3] [ref=e115]
+            - paragraph [ref=e116]: Peter saw the lame man. Don't ignore what's in front of you.
+            - paragraph [ref=e117]: Acts 3:2-3
+          - generic [ref=e118]:
+            - generic [ref=e119]: "2"
+            - heading "Look at Them" [level=3] [ref=e120]
+            - paragraph [ref=e121]: "\"Look at us!\" Peter commanded his attention first."
+            - paragraph [ref=e122]: Acts 3:4
+          - generic [ref=e123]:
+            - generic [ref=e124]: "3"
+            - heading "Give What You Have" [level=3] [ref=e125]
+            - paragraph [ref=e126]: "\"Silver and gold I do not have, but what I do have I give you.\""
+            - paragraph [ref=e127]: Acts 3:6a
+          - generic [ref=e128]:
+            - generic [ref=e129]: "4"
+            - heading "Command in Jesus' Name" [level=3] [ref=e130]
+            - paragraph [ref=e131]: "\"In the name of Jesus Christ of Nazareth, rise up and walk!\""
+            - paragraph [ref=e132]: Acts 3:6b
+          - generic [ref=e133]:
+            - generic [ref=e134]: "5"
+            - heading "Take Action" [level=3] [ref=e135]
+            - paragraph [ref=e136]: Peter grabbed his hand and pulled him up. Faith with works.
+            - paragraph [ref=e137]: Acts 3:7
+        - generic [ref=e138]:
+          - paragraph [ref=e139]: This is reproducible.
+          - paragraph [ref=e140]: It's not a magic formula, but there IS a pattern. And you can learn it.
+      - generic [ref=e142]:
+        - heading "It Works Today" [level=2] [ref=e143]
+        - paragraph [ref=e144]: From Colombia to California, believers are seeing the same results the early church saw.
+        - generic [ref=e145]:
+          - generic [ref=e146]:
+            - img [ref=e147]
+            - generic [ref=e152]: 10,000+
+            - generic [ref=e153]: People Trained
+            - generic [ref=e154]: In commanding prayer principles
+          - generic [ref=e155]:
+            - img [ref=e156]
+            - generic [ref=e159]: 73%
+            - generic [ref=e160]: Success Rate
+            - generic [ref=e161]: Seeing results within 7 days
+          - generic [ref=e162]:
+            - img [ref=e163]
+            - generic [ref=e166]: 35+
+            - generic [ref=e167]: Countries
+            - generic [ref=e168]: Using these principles
+        - generic [ref=e169]:
+          - heading "Real Story from Colombia" [level=3] [ref=e170]
+          - paragraph [ref=e171]: In a small village outside Bogotá, a group of believers started commanding healing instead of begging for it. Within 3 months, they documented over 200 healings. The local hospital noticed the drop in chronic pain patients. The village priest asked what was happening. Their answer? "We're just doing what Acts says to do."
+      - generic [ref=e173]:
+        - generic [ref=e174]:
+          - heading "What's Your Next Step?" [level=2] [ref=e175]
+          - paragraph [ref=e176]: Choose your path. Each one will help you move from begging to commanding.
+        - generic [ref=e177]:
+          - link "Start Here New to this? Begin with the Biblical foundation. Get Started" [ref=e178] [cursor=pointer]:
+            - /url: /start-here
+            - img [ref=e179]
+            - heading "Start Here" [level=3] [ref=e182]
+            - paragraph [ref=e183]: New to this? Begin with the Biblical foundation.
+            - generic [ref=e184]:
+              - text: Get Started
+              - img [ref=e185]
+          - link "7-Day Challenge Ready to practice? Take the activation challenge. Get Started" [ref=e188] [cursor=pointer]:
+            - /url: /challenge
+            - img [ref=e189]
+            - heading "7-Day Challenge" [level=3] [ref=e196]
+            - paragraph [ref=e197]: Ready to practice? Take the activation challenge.
+            - generic [ref=e198]:
+              - text: Get Started
+              - img [ref=e199]
+          - link "Scripture Lookup Need specific verses? Search by condition. Get Started" [ref=e202] [cursor=pointer]:
+            - /url: /scripture-lookup
+            - img [ref=e203]
+            - heading "Scripture Lookup" [level=3] [ref=e206]
+            - paragraph [ref=e207]: Need specific verses? Search by condition.
+            - generic [ref=e208]:
+              - text: Get Started
+              - img [ref=e209]
+        - link "Or Take the Quiz First" [ref=e213] [cursor=pointer]:
+          - /url: /quiz
+          - text: Or Take the Quiz First
+          - img [ref=e214]
+    - contentinfo [ref=e217]:
+      - generic [ref=e218]:
+        - generic [ref=e219]:
+          - generic [ref=e220]:
+            - heading "Jesus Commands" [level=3] [ref=e221]
+            - paragraph [ref=e222]: Teaching believers to pray with Biblical authority. Not begging - commanding. Just like Jesus showed us in the Gospels and Acts.
+          - generic [ref=e223]:
+            - heading "Quick Links" [level=3] [ref=e224]
+            - list [ref=e225]:
+              - listitem [ref=e226]:
+                - link "Start Here" [ref=e227] [cursor=pointer]:
+                  - /url: /start-here
+              - listitem [ref=e228]:
+                - link "Take the Quiz" [ref=e229] [cursor=pointer]:
+                  - /url: /quiz
+              - listitem [ref=e230]:
+                - link "7-Day Challenge" [ref=e231] [cursor=pointer]:
+                  - /url: /challenge
+              - listitem [ref=e232]:
+                - link "Learning Path" [ref=e233] [cursor=pointer]:
+                  - /url: /learning-path
+          - generic [ref=e234]:
+            - heading "Resources" [level=3] [ref=e235]
+            - list [ref=e236]:
+              - listitem [ref=e237]:
+                - link "Scripture Database" [ref=e238] [cursor=pointer]:
+                  - /url: /scripture-lookup
+              - listitem [ref=e239]:
+                - link "Testimonies" [ref=e240] [cursor=pointer]:
+                  - /url: /testimonies
+              - listitem [ref=e241]:
+                - link "Free PDF Guide" [ref=e242] [cursor=pointer]:
+                  - /url: /pdf
+        - paragraph [ref=e244]: © 2025 Jesus Commands. All rights reserved. Teaching believers to walk in Biblical authority.
+  - button "Open Next.js Dev Tools" [ref=e250] [cursor=pointer]:
+    - img [ref=e251]
+  - alert [ref=e255]
+```
